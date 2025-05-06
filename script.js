@@ -1,12 +1,3 @@
-function togglePassword() {
-    const passwordInput = document.getElementById('password');
-    if (passwordInput.type === 'password') {
-        passwordInput.type = 'text';
-    } else {
-        passwordInput.type = 'password';
-    }
-}
-
 function changeLanguage(lang) {
     if (lang === 'zh_tw') {
         document.getElementById('username').placeholder = '帳號';
