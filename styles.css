@@ -102,8 +102,7 @@ body {
 }
 
 .word1 p,
-.word2 p,
-.login-footer img {
+.word2 p {
     margin: 0.5rem 0;
     padding: 0;
     font-size: 1rem;
